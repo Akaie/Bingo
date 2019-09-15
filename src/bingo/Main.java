@@ -69,6 +69,9 @@ public class Main extends Application {
 	        	}
 	        	br.close();
         	}
+        	else {
+        		f.createNewFile();
+        	}
         }
         catch(Exception e) {
         	e.printStackTrace();
